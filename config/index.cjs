@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '31d4ff9a26fadd0d7444ae7c2e4e672b',
 
   PROVINCE: '湖北',
-  CITY: '黄州',
+  CITY: '黄冈',
 
   USERS: [
     {
@@ -32,9 +32,9 @@ const USER_CONFIG = {
           type: '*生日', name: '小胡宝贝', year: '1997', date: '07-06',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '小胡宝贝', year: '1997', date: '08-08',
-        },
+       // {
+        //  type: '生日', name: '小胡宝贝', year: '1997', date: '08-08',
+        //},
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         },
